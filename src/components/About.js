@@ -4,8 +4,6 @@ import React from "react";
 import "./About.css";
 import "./Aboutmobile.css";
 import katyan from "../Images/Katyan.jpeg";
-import Gaurav from "../Images/Gaurav.jpg";
-import Gourav from "../Images/Gourav.jpeg";
 import person1 from "../Images/person1.jpg"
 import person2 from "../Images/person2.jpg";
 
@@ -71,25 +69,13 @@ function About() {
       </section>
       <section id="team" class="team section-padding">
         <header class="section-header1">
-          <h4>Who We Are</h4>
-          <h2>Our Professional Team </h2>
-          <p>We are who made this site possible</p>
+          <h2>About The Developer </h2>
         </header>
         <div class="flex-items">
           <div>
             <img src={katyan} alt="" />
             <h4>Divyanshu Katyan</h4>
-            <p>President</p>
-          </div>
-          <div>
-            <img src={Gaurav} alt="" />
-            <h4>Gaurav Gulati</h4>
-            <p>Designer</p>
-          </div>
-          <div>
-            <img src={Gourav} alt="" />
-            <h4>Gourav Gupta</h4>
-            <p>Content Head</p>
+            <p className="devpara">I am a btech 3rd year student from Delhi Technological university and I Can develop websites using MERN Efficiently </p>
           </div>
         </div>
       </section>

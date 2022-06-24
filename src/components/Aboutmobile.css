@@ -7,9 +7,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+.devpara
+{
+    color: white!important;
+    text-align: center;
+}
 
-/* Main styling i.e everything except id and class */
-/* you should write html,body however just body will work as well */
 html,body
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -34,7 +37,7 @@ p
     margin: 10px 0;
 }
 
-/* Utility classes */
+
 
 .fragment1
 {
@@ -118,7 +121,6 @@ p
     text-align: center;
 }
 
-/* Padding utility class */
 
 .py-1
 {
@@ -141,7 +143,6 @@ p
     background: #333;
     color: #fff;
     overflow: auto;
-    /* Doing just above won't make the text visible as links have their own color */
 }
 
 #navbar a
@@ -179,10 +180,8 @@ p
     background: #444;
 }
 
-/* Showcase */
 #showcase
 {
-    /* See we typed here ../ as the image is not in same folder so we have to go to parent folder hence 2 dots */
     background: url('../Images/showcase.jpg') no-repeat center center/cover;
     height: 600px;
 }
@@ -277,7 +276,7 @@ p
     width: 200px;
 }
 
-/* Testimonials */
+
 #testimonials
 {
     height: 100%;
@@ -298,7 +297,6 @@ p
     margin-bottom: 40px;
     border-radius: 5px;
     opacity: 0.9;
-    /* This is a property to make things little opaque or transparent. Ranges from 0-1. 0 Means completely transparent and 1 means fully opaque */
 }
 
 #testimonials .testimonial img
@@ -309,7 +307,6 @@ p
     border-radius: 50%;
 }
 
-/* Contact Form */
 #contact-form .form-group
 {
     margin-bottom: 20px;
@@ -334,7 +331,6 @@ p
     height: 200px;
 }
 
-/* Below is the for changing the colour of the input boundary when we select it from blue to another colour */
 #contact-form input:focus,
 #contact-form textarea:focus
 {
@@ -390,7 +386,6 @@ p
     height: 100%;
 }
 
-/* Below means that the immediate child div of the flex-items */
 .flex-items > div
 {
     padding: 20px;
